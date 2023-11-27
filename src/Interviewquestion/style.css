@@ -1,0 +1,24 @@
+.mobile{
+display: none;
+}
+.desktop{
+    background-color: yellow;
+    color: black;
+    padding: 20px;
+    border-radius: 20px;    
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width:768px){
+    .mobile{
+        background-color: green;
+        color: black;
+        padding: 20px;
+        border-radius: 20px; 
+        display: block;   
+        }
+        .desktop{
+            display: none;
+        }   
+}
